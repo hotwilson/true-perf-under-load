@@ -1,2 +1,14 @@
 # true-perf-under-load
 An example of how to measure the true response time observed by real users while generating artificial loads using JMeter, Selenium, Appium, BrowserMobProxy
+
+## The annoyance
+There are two types of scripts that pretend to be internet browsers and mobile devices.
+
+  * One type of script was created by "sniffing" the pattern of bytes traveling across the network
+    (JMeter, LoadRunner C-scripts, etc. are in this category)
+
+  * the other type of script was created by pretending to be someone typing and moving the mouse around the screen
+    (Selenium, Appium, QTP/UFT, TruClient, are in this category)
+
+
+
