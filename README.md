@@ -13,9 +13,12 @@ There are two types of scripts that pretend to be internet browsers and mobile d
 The dilemma is that these are two different types of scripting efforts, 
 typically using different programming languages and different tools.
 
+The problem is that because performance testing tools focus on file transfers,
+they do not report delays caused by JavaScript client-rendering.
+
 
 ## This repo
-This repo contains assets used to measure response times 
+This repo contains assets used to measure "true" response times 
 
 The best of both worlds.
 
